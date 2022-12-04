@@ -21,7 +21,7 @@ for pair in pairLines {
 		counter += 1
 	}
 	
-	if rangeA.contains(rangeB) || rangeB.contains(rangeA) || rangeA.contains(rangeB.first!) || rangeA.contains(rangeB.last!) || rangeB.contains(rangeA.first!) || rangeB.contains(rangeA.last!) {
+	if rangeA.contains(rangeB.first!) || rangeA.contains(rangeB.last!) || rangeB.contains(rangeA.first!) || rangeB.contains(rangeA.last!) {
 		counterPartTwo += 1
 	}
 }
